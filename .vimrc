@@ -66,3 +66,10 @@ set mouse+=a
 
 " 将vim拷贝的内容加入剪贴板
 set clipboard=unnamed
+
+" 下两行设置tab宽度
+set shiftwidth=4 
+set softtabstop=4
+
+set autoindent
+

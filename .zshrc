@@ -112,7 +112,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias learnPython="open Documents/CS-Document/python/introducing-python-modern-computing-in-simple-packages-2nbsped-1492051365-9781492051367.pdf"
+alias learnPython="open ~/Documents/CSDocuments/python/introducing-python-modern-computing-in-simple-packages-2nbsped-1492051365-9781492051367.pdf"
 
 DEFAULT_USER="Maple"
 
@@ -121,16 +121,18 @@ bindkey -v
 bindkey "ç" fzf-cd-widget
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/Maple/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/Users/Maple/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/Users/Maple/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/Maple/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "/Users/Maple/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/Maple/opt/anaconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/Users/Maple/miniconda3/bin:$PATH"
+        export PATH="/Users/Maple/opt/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup

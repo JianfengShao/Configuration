@@ -73,3 +73,6 @@ set softtabstop=4
 
 set autoindent
 
+" tab键补全当前命令时显示所有匹配的命令或文件名
+set wildmode=list:longest
+

@@ -11,6 +11,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
 #ZSH_THEME="robbyrussell"
+#ZSH_THEME="bullet-train"
 ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
@@ -103,6 +104,12 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# 设置http代理
+export http_proxy=http://127.0.0.1:7890
+export https_proxy=$http_proxy
+#alias proxyhp='export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;'
+#alias unproxyhp='unset http_proxy https_proxy'
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -113,6 +120,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias learnPython="open ~/Documents/CSDocuments/python/introducing-python-modern-computing-in-simple-packages-2nbsped-1492051365-9781492051367.pdf"
+
 
 DEFAULT_USER="Maple"
 

@@ -13,6 +13,9 @@ set clipboard=unnamed
 " text scroll if you mouse-click near the start or end of the window.
 set scrolloff=5
 
+set ignorecase
+set smartcase
+
 " Do incremental searching.
 set incsearch
 
